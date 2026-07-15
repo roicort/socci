@@ -1,0 +1,247 @@
+{
+    "asset" : {
+        "copyright" : "SOCCI",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J3.CupulaTriangular",
+            "rotation" : [
+                0.32889458537101746,
+                0.011459180153906345,
+                0.32241272926330566,
+                0.8875511884689331
+            ],
+            "translation" : [
+                0,
+                2.7318291664123535,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.33716320991516113,
+                    0.21952584385871887,
+                    0.49693286418914795,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.09530698508024216,
+                    0.24228079617023468,
+                    0.5647115707397461,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.13843125104904175,
+                    0.22322772443294525,
+                    0.38642945885658264,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J3.CupulaTriangular",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 18,
+            "max" : [
+                5.499719619750977,
+                5.499719619750977,
+                8.645782470703125
+            ],
+            "min" : [
+                -8.65512752532959,
+                -8.643937110900879,
+                -5.499719619750977
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 18,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                5.499719619750977,
+                5.499719619750977,
+                8.645782470703125
+            ],
+            "min" : [
+                -8.65512752532959,
+                -8.643937110900879,
+                -5.499719619750977
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 10,
+            "max" : [
+                5.4870076179504395,
+                5.498198509216309,
+                8.645782470703125
+            ],
+            "min" : [
+                -8.65512752532959,
+                -8.643937110900879,
+                -5.4963531494140625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 10,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 468
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 612
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 756
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120,
+            "byteOffset" : 780
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120,
+            "byteOffset" : 900
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 1020
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1044,
+            "uri" : "data:application/octet-stream;base64,fcLKvz7xr0AgVQpBfcLKvz7xr0AgVQpBfcLKv5FNCsEg4q/AfcLKv5FNCsEg4q/AkZWvQJFNCsFAkMk/kZWvQJFNCsFAkMk/8iHJv7T9r0C0/a/A8iHJv7T9r0C0/a/A8iHJv7T9r0C0/a/A8iHJv7T9r0C0/a/AtP2vQLT9r0DyIck/tP2vQLT9r0DyIck/tP2vQLT9r0DyIck/tP2vQPIhyb+0/a/AtP2vQPIhyb+0/a/AZ3sKwcpTyb8g4q/AkZWvQMpTyb8gVQpBZ3sKwT7xr0BAkMk/BFjhuAAAgD+WT+E4Gi/huAAAgD+YT+E4llt5ubZmebn//3+/klt5uQBMebn+/3+/8/9/P4yNa7q4hGs68/9/P4yNa7owmWs6llt5ubZmebn//3+/klt5uQBMebn+/3+/BFjhuAAAgD+WT+E4Gi/huAAAgD+YT+E4Gi/huAAAgD+YT+E48/9/P4yNa7q4hGs68/9/P4yNa7owmWs6klt5uQBMebn+/3+/8/9/P4yNa7owmWs6llt5ubZmebn//3+/8/9/P4yNa7q4hGs6BFjhuAAAgD+WT+E4CQABAAoADQADAAcADgAMAAUADwAGAAIAEAAEAAsAEQAAAAgAfcLKvz7xr0AgVQpBfcLKv5FNCsEg4q/AkZWvQJFNCsFAkMk/8iHJv7T9r0C0/a/A8iHJv7T9r0C0/a/AtP2vQLT9r0DyIck/tP2vQLT9r0DyIck/tP2vQPIhyb+0/a/AtP2vQPIhyb+0/a/AZ3sKwcpTyb8g4q/AkZWvQMpTyb8gVQpBZ3sKwT7xr0BAkMk/2rkTP9y5Ez/x8xM/Q7MTPxgBFL9EsxO/Q7MTPxgBFL9EsxO/WrETvyfbEz8n2xO/Os0TPzrNEz86zRO/2rkTP9y5Ez/x8xM/Os0TPzrNEz86zRO/Q7MTPxgBFL9EsxO/Os0TPzrNEz86zRO/WrETvyfbEz8n2xO/2rkTP9y5Ez/x8xM/WrETvyfbEz8n2xO/CAAEAAYABwACAAEACgAFAAAACwADAAkAfcLKvz7xr0AgVQpBfcLKvz7xr0AgVQpBfcLKvz7xr0AgVQpBfcLKv5FNCsEg4q/AfcLKv5FNCsEg4q/AkZWvQJFNCsFAkMk/Z3sKwcpTyb8g4q/AZ3sKwcpTyb8g4q/AkZWvQMpTyb8gVQpBZ3sKwT7xr0BAkMk/Pc0TvzrNE786zRM/O80TvzvNE787zRM/Os0TvzrNE786zRM/O80TvzvNE787zRM/Os0TvzrNE786zRM/Os0TvzrNE786zRM/Pc0TvzrNE786zRM/O80TvzvNE787zRM/Os0TvzrNE786zRM/Pc0TvzrNE786zRM/AgAEAAUABwADAAEACAACAAUACQAGAAAA"
+        }
+    ]
+}

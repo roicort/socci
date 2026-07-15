@@ -1,0 +1,170 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J27.OrtobicupulaTriangular"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.28744053840637207,
+                    0.16826912760734558,
+                    0.4507857859134674,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.28744053840637207,
+                    0.16826912760734558,
+                    0.4507857859134674,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J27.OrtobicupulaTriangular",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 30,
+            "max" : [
+                7.071067810058594,
+                7.071067810058594,
+                9.42809009552002
+            ],
+            "min" : [
+                -9.42809009552002,
+                -9.42809009552002,
+                -7.071067810058594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 30,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                7.071067810058594,
+                7.071067810058594,
+                9.42809009552002
+            ],
+            "min" : [
+                -9.42809009552002,
+                -9.42809009552002,
+                -7.071067810058594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 1080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 1368
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1416,
+            "uri" : "data:application/octet-stream;base64,AAAAADBG4kAwRuLAAAAAADBG4kAwRuLAMEbiQDBG4kAAAACAMEbiQDBG4kAAAACAMEbiQAAAAAAwRuLAMEbiQAAAAAAwRuLAMEbiwAAAAAAwRuLAMEbiwAAAAAAwRuLAAAAAADBG4kAwRuJAAAAAADBG4kAwRuJAAAAAADBG4kAwRuJAAAAAADBG4sAwRuLAAAAAADBG4sAwRuLAAAAAADBG4sAwRuLAddkWwXfZFsB32RZAddkWwXfZFsB32RZAddkWwXfZFsB32RZAddkWwXfZFsB32RZAd9kWwHfZFsB12RZBd9kWwHfZFsB12RZBd9kWwHfZFsB12RZBMEbiQDBG4sAAAACAMEbiQDBG4sAAAACAMEbiQDBG4sAAAACAMEbiQAAAAAAwRuJAMEbiQAAAAAAwRuJAMEbiwDBG4kAAAACAMEbiwDBG4kAAAACAd9kWwHXZFsF32RZAd9kWwHXZFsF32RZAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAACAPwAAAAAAAACAAAAAAAAAAAAAAIC/AACAPwAAAAAAAACAqqoqv6qqKr+oqqq+AAAAAAAAAAAAAIC/q6oqv6iqqj6sqio/qqoqv6qqqj6pqio/AAAAAAAAgD8AAACArKoqv6yqKr+sqqq+qqoqv6qqKr+oqqq+AAAAAAAAAAAAAIC/rKoqv6yqKr+sqqq+q6oqv6iqqj6sqio/qqoqv6qqKr+oqqq+qqoqv6qqqj6pqio/q6oqv6iqqj6sqio/p6qqPquqKr+qqio/qqqqPqmqKr+qqio/p6qqPquqKr+qqio/qqqqPqmqKr+qqio/AACAPwAAAAAAAACAqqqqPqmqKr+qqio/AACAPwAAAAAAAACAqqoqv6qqqj6pqio/AAAAAAAAgD8AAACArKoqv6yqKr+sqqq+p6qqPquqKr+qqio/AAAEAAcACgACAAEADAAQAAYADQAHAAQAEgAIAA8AFwAFAAMAGAAUABYAGQAXAAMAGgARAAkAGwAKAAEAHAAOAAsAHQAVABMAAAAAADBG4kAwRuLAAAAAADBG4kAwRuLAMEbiQDBG4kAAAACAMEbiQDBG4kAAAACAMEbiQAAAAAAwRuLAMEbiQAAAAAAwRuLAMEbiwAAAAAAwRuLAMEbiwAAAAAAwRuLAAAAAADBG4kAwRuJAAAAAADBG4kAwRuJAAAAAADBG4sAwRuLAAAAAADBG4sAwRuLAddkWwXfZFsB32RZAddkWwXfZFsB32RZAd9kWwHfZFsB12RZBd9kWwHfZFsB12RZBMEbiQDBG4sAAAACAMEbiQDBG4sAAAACAMEbiQAAAAAAwRuJAMEbiQAAAAAAwRuJAMEbiwDBG4kAAAACAMEbiwDBG4kAAAACAd9kWwHXZFsF32RZAd9kWwHXZFsF32RZAOs0TvzrNEz86zRO/Os0TPzrNEz86zRO/Os0TPzrNEz86zRO/Os0TPzrNEz86zRM/Os0TPzrNE786zRO/Os0TPzrNEz86zRO/C1Z2v6ARRT6gEUW+Os0TvzrNEz86zRO/oBFFPqARRT4LVnY/Os0TPzrNEz86zRM/oBFFPg1Wdr+gEUW+Os0TPzrNE786zRO/C1Z2v6ARRT6gEUW+Os0TvzrNE786zRM/Os0TvzrNE786zRM/oBFFPqARRT4LVnY/oBFFPg1Wdr+gEUW+Os0TPzrNE786zRO/oBFFPqARRT4LVnY/Os0TPzrNEz86zRM/C1Z2v6ARRT6gEUW+Os0TvzrNEz86zRO/Os0TvzrNE786zRM/oBFFPg1Wdr+gEUW+AQACAAUAEQALAAQAEwADAAkAEgAIAA8AFAAGAAwAFQAAAAcAFgAOAA0AFwAKABAA"
+        }
+    ]
+}

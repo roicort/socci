@@ -1,0 +1,246 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J22.CupulaTriangularGiroelongada",
+            "rotation" : [
+                0.278969943523407,
+                -0.11555060744285583,
+                0.3648139238357544,
+                0.8807579874992371
+            ],
+            "translation" : [
+                0,
+                3.144618272781372,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.10946158319711685,
+                    0.06480315327644348,
+                    0.2015562504529953,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.28314846754074097,
+                    0.16513192653656006,
+                    0.4452010989189148,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.027320407330989838,
+                    0.19806908071041107,
+                    0.5209954380989075,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J22.CupulaTriangularGiroelongada",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 57,
+            "max" : [
+                6.955496788024902,
+                6.955496788024902,
+                7.752963066101074
+            ],
+            "min" : [
+                -7.752963066101074,
+                -7.752963066101074,
+                -6.955496788024902
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 57,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 57,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 14,
+            "max" : [
+                6.955496788024902,
+                6.955496788024902,
+                3.354310989379883
+            ],
+            "min" : [
+                -3.354310989379883,
+                -3.354310989379883,
+                -6.955496788024902
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 14,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 3,
+            "max" : [
+                6.955496788024902,
+                6.955496788024902,
+                -1.8005930185317993
+            ],
+            "min" : [
+                1.8005930185317993,
+                1.8005930185317993,
+                -6.955496788024902
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 3,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 3,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 684,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 684,
+            "byteOffset" : 684
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 114,
+            "byteOffset" : 1368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 168,
+            "byteOffset" : 1484
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 168,
+            "byteOffset" : 1652
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 1820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 1856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 1892
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6,
+            "byteOffset" : 1928
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1936,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
+}

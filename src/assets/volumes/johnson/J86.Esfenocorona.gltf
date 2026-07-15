@@ -1,0 +1,173 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J86.Esfenocorona",
+            "translation" : [
+                0,
+                6.599999904632568,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Tri\u00e1ngulo ",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.04091493412852287,
+                    0.14995968341827393,
+                    0.25015828013420105,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Cuadrado",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.010328862816095352,
+                    0.4564104974269867,
+                    0.9646860957145691,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J86.Esfenocorona",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 36,
+            "max" : [
+                8.535943984985352,
+                6.472866058349609,
+                7.902307033538818
+            ],
+            "min" : [
+                -8.535943984985352,
+                -6.6734490394592285,
+                -7.902307033538818
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 36,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                8.535943984985352,
+                -1.4445650577545166,
+                5.0050859451293945
+            ],
+            "min" : [
+                -8.535943984985352,
+                -6.6734490394592285,
+                -5.0050859451293945
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 432,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 432,
+            "byteOffset" : 432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 936
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 1080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 1224
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1248,
+            "uri" : "data:application/octet-stream;base64,AAAAAOWM1cCqKaDAAAAAAOWM1cCqKaDAOpMIQYLnuL+qKaDAOpMIQYLnuL+qKaDAOpMIQYLnuL+qKaDAAAAAAOWM1cCqKaBAAAAAAOWM1cCqKaBAOpMIwYLnuL+qKaDAOpMIwYLnuL+qKaDAOpMIwYLnuL+qKaDAAAAAAGQhOkCz3/zAAAAAAGQhOkCz3/zAAAAAAGQhOkCz3/zAAAAAAGQhOkCz3/zAAAAAAGQhOkCz3/zAqimgQLghz0AAAACAqimgQLghz0AAAACAqimgQLghz0AAAACAqimgQLghz0AAAACAqimgQLghz0AAAACAqimgwLghz0AAAACAqimgwLghz0AAAACAqimgwLghz0AAAACAqimgwLghz0AAAACAqimgwLghz0AAAACAAAAAAGQhOkCz3/xAAAAAAGQhOkCz3/xAAAAAAGQhOkCz3/xAAAAAAGQhOkCz3/xAAAAAAGQhOkCz3/xAOpMIwYLnuL+qKaBAOpMIwYLnuL+qKaBAOpMIwYLnuL+qKaBAOpMIQYLnuL+qKaBAOpMIQYLnuL+qKaBAOpMIQYLnuL+qKaBAPcMyvlPpkb7FR3G/PcMyPlPpkb7FR3G/PcMyPlPpkb7FR3G/m/ADP1g2HD/4Bxq/1s1pP9eI0D4AAACAPcMyvlPpkb7FR3E/PcMyPlPpkb7FR3E/1s1pv9eI0D4AAACAm/ADv1g2HD/4Bxq/PcMyvlPpkb7FR3G/m/ADv1g2HD/4Bxq/PcMyvlPpkb7FR3G/AAAAAIFbaT+rhtK+PcMyPlPpkb7FR3G/m/ADP1g2HD/4Bxq/AAAAAIFbaT+rhtK+AAAAAIFbaT+rhtI+m/ADP1g2HD/4Bxq/nPADP1g2HD/4Bxo/1s1pP9eI0D4AAACA1s1pv9eI0D4AAACAnPADv1g2HD/4Bxo/m/ADv1g2HD/4Bxq/AAAAAIFbaT+rhtK+AAAAAIFbaT+rhtI+nPADv1g2HD/4Bxo/PcMyvlPpkb7FR3E/AAAAAIFbaT+rhtI+PcMyPlPpkb7FR3E/nPADP1g2HD/4Bxo/1s1pv9eI0D4AAACAnPADv1g2HD/4Bxo/PcMyvlPpkb7FR3E/PcMyPlPpkb7FR3E/nPADP1g2HD/4Bxo/1s1pP9eI0D4AAACADgARAAMADQACAAEACwAAAAkAFgAKAAgAGAAbABAAFwAPAAwAIAAFABoAHwAZABUAHgAUAAcAIQAcAAYAIgASAB0AIwAEABMAAAAAAOWM1cCqKaDAAAAAAOWM1cCqKaDAOpMIQYLnuL+qKaDAOpMIQYLnuL+qKaDAAAAAAOWM1cCqKaBAAAAAAOWM1cCqKaBAAAAAAOWM1cCqKaBAAAAAAOWM1cCqKaBAOpMIwYLnuL+qKaDAOpMIwYLnuL+qKaDAOpMIwYLnuL+qKaBAOpMIQYLnuL+qKaBAMbkFv09MWr8AAACAMbkFP09MWr8AAACAMLkFP09MWr8AAACAMbkFP09MWr8AAACAMbkFv09MWr8AAACAMLkFv09MWr8AAACAMLkFP09MWr8AAACAMbkFP09MWr8AAACAMbkFv09MWr8AAACAMLkFv09MWr8AAACAMLkFv09MWr8AAACAMLkFP09MWr8AAACAAQADAAcACAAAAAQACgAJAAUACwAGAAIA"
+        }
+    ]
+}

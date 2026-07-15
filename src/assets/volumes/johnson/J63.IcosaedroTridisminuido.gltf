@@ -1,0 +1,173 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J63.IcosaedroTridisminuido",
+            "translation" : [
+                0,
+                8.5,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "icosaedro",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.17788805067539215,
+                    0.46207675337791443,
+                    0.0975874662399292,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Dodecaedro",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0998983085155487,
+                    0.34191417694091797,
+                    0.3049873411655426,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J63.IcosaedroTridisminuido",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 15,
+            "max" : [
+                8.506507873535156,
+                8.506507873535156,
+                8.506507873535156
+            ],
+            "min" : [
+                -8.506507873535156,
+                -8.506507873535156,
+                -8.506507873535156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 15,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 15,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 25,
+            "max" : [
+                8.506507873535156,
+                8.506507873535156,
+                8.506507873535156
+            ],
+            "min" : [
+                -8.506507873535156,
+                -8.506507873535156,
+                -8.506507873535156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 25,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 27,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 180,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 180,
+            "byteOffset" : 180
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30,
+            "byteOffset" : 360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 300,
+            "byteOffset" : 392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 300,
+            "byteOffset" : 692
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 54,
+            "byteOffset" : 992
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1048,
+            "uri" : "data:application/octet-stream;base64,qBoIwQAAAADkO6jA5DuowKgaCEEAAACA5DuowKgaCEEAAACA5DuowKgaCEEAAACAqBoIQQAAAADkO6jAAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGghBAAAAAOQ7qECoGghBAAAAAOQ7qECoGghBAAAAAOQ7qECoGghB5DuoQKgaCEEAAACA5DuoQKgaCMEAAACAqBoIwQAAAADkO6hAqBoIwQAAAADkO6hAqBoIwQAAAADkO6hA6yVvv2Oxtj4AAACA6yVvv2Oxtj4AAACAOs0TvzrNEz86zRM/AAAAAOslbz9jsbY+Os0TPzrNE786zRO/Os0TPzrNE786zRO/Y7G2vgAAAADrJW8/Os0TvzrNEz86zRM/Y7G2vgAAAADrJW8/AAAAAOslbz9jsbY+AAAAAOslbz9jsbY+Os0TPzrNE786zRO/6yVvv2Oxtj4AAACAOs0TvzrNEz86zRM/Y7G2vgAAAADrJW8/CgADAAkACwAFAAQADQAHAAIADgAGAAgADAABAAAAAACoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qMDkO6jAqBoIQQAAAICoGghBAAAAAOQ7qMCoGghBAAAAAOQ7qMCoGghBAAAAAOQ7qMCoGghBAAAAAOQ7qMCoGghBAAAAAOQ7qMAAAAAA5DuowKgaCMEAAAAA5DuowKgaCMEAAAAA5DuowKgaCMEAAAAA5DuowKgaCEEAAAAA5DuowKgaCEEAAAAA5DuowKgaCEEAAAAA5DuowKgaCEEAAAAA5DuowKgaCEEAAAAA5DuoQKgaCEEAAAAA5DuoQKgaCEHkO6hAqBoIQQAAAIDkO6hAqBoIQQAAAIDkO6hAqBoIwQAAAIDkO6hAqBoIwQAAAICoGgjBAAAAAOQ7qEBRlga/QcRZvwAAAIBQlga/QcRZvwAAAIAAAAAAUJYGP0HEWb8AAAAAUZYGP0DEWb8AAAAAUJYGP0HEWb8AAAAAUJYGP0HEWb8AAAAAUZYGP0DEWb9BxFk/NNIbs1CWBj9BxFk/AAAAAFGWBj9BxFk/NNIbM1CWBj9Rlga/QcRZvwAAAIBRlga/QMRZvwAAAIAAAAAAUZYGP0DEWb9Rlga/QcRZvwAAAIBRlga/QMRZvwAAAIBQlga/QcRZvwAAAIBBxFk/NNIbs1CWBj9BxFk/AAAAAFGWBj9BxFk/AAAAAFGWBj9BxFk/NNIbM1CWBj8AAAAAUJYGP0HEWb9BxFk/NNIbM1CWBj9Rlga/QMRZvwAAAIBBxFk/NNIbs1CWBj9Qlga/QcRZvwAAAIACAAQABQAMAAMABgANAAAACgARAAgAEgAUAAUABAAVABMACQAXAAcAEAAWAA4ACwAYAAEADwAAAA=="
+        }
+    ]
+}

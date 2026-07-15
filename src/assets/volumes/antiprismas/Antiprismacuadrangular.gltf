@@ -1,0 +1,118 @@
+{
+    "asset" : {
+        "copyright" : "SOCCI",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Antiprismacuadrado"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.1070229634642601,
+                    0.06480315327644348,
+                    0.19806928932666779,
+                    1
+                ],
+                "metallicFactor" : 0.5,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Antiprismacuadrado",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 32,
+            "max" : [
+                4.819200038909912,
+                6.815299987792969,
+                4.819200038909912
+            ],
+            "min" : [
+                -4.819200038909912,
+                0,
+                -4.819200038909912
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 256,
+            "byteOffset" : 768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 1024
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1096,
+            "uri" : "data:application/octet-stream;base64,whdawAAAAADCF1pAwhdawAAAAADCF1pAwhdawAAAAADCF1pAwhdawAAAAADCF1pAwhdawAAAAADCF1rAwhdawAAAAADCF1rAwhdawAAAAADCF1rAwhdawAAAAADCF1rAwhdaQAAAAADCF1rAwhdaQAAAAADCF1rAwhdaQAAAAADCF1rAwhdaQAAAAADCF1rAwhdaQAAAAADCF1pAwhdaQAAAAADCF1pAwhdaQAAAAADCF1pAwhdaQAAAAADCF1pAAAAAgPAW2kDjNppAAAAAgPAW2kDjNppAAAAAgPAW2kDjNppAAAAAgPAW2kDjNppA4zaaQPAW2kAAAAAA4zaaQPAW2kAAAAAA4zaaQPAW2kAAAAAA4zaaQPAW2kAAAAAAAAAAAPAW2kDjNprAAAAAAPAW2kDjNprAAAAAAPAW2kDjNprAAAAAAPAW2kDjNprA4zaawPAW2kAAAACA4zaawPAW2kAAAACA4zaawPAW2kAAAACA4zaawPAW2kAAAACAH656v8arT74AAACA7UExv72sTz7sQTE/AAAAAAAAgL8AAACAAAAAAMKrT74frno/H656v8arT74AAACA7UExv72sTz7sQTG/AAAAAAAAgL8AAACAAAAAAMKrT74frnq/AAAAAAAAgL8AAACAAAAAAMKrT74frnq/7UExP72sTz7sQTG/H656P8arT74AAACAAAAAAAAAgL8AAACAAAAAAMKrT74frno/7UExP72sTz7sQTE/H656P8arT74AAACA7UExv72sTz7sQTE/AAAAAMKrT74frno/AAAAAAAAgD8AAACA7UExP72sTz7sQTE/AAAAAAAAgD8AAACA7UExP72sTz7sQTG/7UExP72sTz7sQTE/H656P8arT74AAACA7UExv72sTz7sQTG/AAAAAMKrT74frnq/AAAAAAAAgD8AAACA7UExP72sTz7sQTG/H656v8arT74AAACA7UExv72sTz7sQTG/7UExv72sTz7sQTE/AAAAAAAAgD8AAACAAACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AAAAAAAAgD8AAAAAAACAPwAAgD8AAIA/AACAPwAAAAAAAIA/AACAPwAAAAAAAAAAAAAAAAAAgD8AAIA/AACAPwAAgD8AAIA/AAAAAAAAgD8AAIA/AACAPwAAgD8AAIA/AAAAAAAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAIABgAIAAIACAAMABIAFAAaABIAGgAfAAMADQARAA8ACwAXAAkABwAZAAQAAAAcAA4AFgATAAoAGwAVAAUAHQAYAAEAEAAeAA=="
+        }
+    ]
+}

@@ -1,0 +1,301 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J65.TetraedroTruncadoAumentado",
+            "translation" : [
+                0,
+                6.880000114440918,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "hexagono tetra truncado",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5028861165046692,
+                    0.23839721083641052,
+                    0.5088812708854675,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "triangulo tetra truncado",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5647112131118774,
+                    0.4019773006439209,
+                    0.5775803923606873,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "triangulo cuboctaedro",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.028425561264157295,
+                    0.19806908071041107,
+                    0.5209954380989075,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "cuadro cuboctaedro",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.28744053840637207,
+                    0.168269082903862,
+                    0.4452010989189148,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J65.TetraedroTruncadoAumentado",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 2
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 9,
+                        "NORMAL" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 37,
+            "max" : [
+                6.882472038269043,
+                6.882472038269043,
+                6.882472038269043
+            ],
+            "min" : [
+                -6.882472038269043,
+                -6.882472038269043,
+                -6.882472038269043
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 37,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 39,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 9,
+            "max" : [
+                6.882472038269043,
+                6.882472038269043,
+                6.882472038269043
+            ],
+            "min" : [
+                -6.882472038269043,
+                -6.882472038269043,
+                -6.882472038269043
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 9,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 9,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                2.294157028198242,
+                8.411910057067871,
+                2.294157028198242
+            ],
+            "min" : [
+                -8.411910057067871,
+                -2.294157028198242,
+                -8.411910057067871
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 18,
+            "max" : [
+                2.294157028198242,
+                8.411910057067871,
+                2.294157028198242
+            ],
+            "min" : [
+                -8.411910057067871,
+                -2.294157028198242,
+                -8.411910057067871
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 18,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 444,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 444,
+            "byteOffset" : 444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 78,
+            "byteOffset" : 888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 1076
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18,
+            "byteOffset" : 1184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 1204
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 1348
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 1492
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 1516
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 1732
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 1948
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1984,
+            "uri" : "data:application/octet-stream;base64,eNMSwHjTEsA2PdzAeNMSwHjTEsA2PdzAeNMSQHjTEkA2PdzAeNMSQHjTEkA2PdzAeNMSwDY93MB40xLAeNMSwDY93MB40xLAeNMSwDY93MB40xLAeNMSwDY93MB40xLANj3cwHjTEsB40xLANj3cwHjTEsB40xLANj3cwHjTEsB40xLANj3cwHjTEsB40xLAeNMSQDY93MB40xJAeNMSQDY93MB40xJAeNMSQDY93MB40xJAeNMSQDY93MB40xJAeNMSQDY93MB40xJANj3cQHjTEkB40xLANj3cQHjTEkB40xLANj3cQHjTEkB40xLANj3cQHjTEkB40xLANj3cQHjTEkB40xLANj3cQHjTEkB40xLAeNMSQDY93EB40xLAeNMSwDY93EB40xJAeNMSwDY93EB40xJAeNMSwHjTEkA2PdxAeNMSwHjTEkA2PdxAeNMSwHjTEkA2PdxAeNMSwHjTEkA2PdxAeNMSwHjTEkA2PdxAeNMSQHjTEsA2PdxAeNMSQHjTEsA2PdxAeNMSQHjTEsA2PdxANj3cwHjTEkB40xJANj3cQHjTEsB40xJANj3cQHjTEsB40xJAOs0TvzrNE786zRO/O80TPzvNE786zRO/Os0TPzrNE786zRO/O80TPzvNE786zRO/O80TvzrNE787zRM/Os0TvzrNE786zRO/Os0TPzrNE786zRO/O80TPzvNE786zRO/O80TvzrNE787zRM/Os0TvzvNE787zRM/Os0TvzrNE786zRO/Os0TvzrNE786zRM/O80TvzvNE786zRM/O80TvzrNE787zRM/Os0TvzrNE786zRM/Os0TPzrNE789zRO/Os0TPzrNE786zRO/Os0TPzrNE789zRO/Os0TPzrNE786zRO/Os0TPzrNEz86zRM/Os0TPzvNEz86zRM/Os0TPzvNEz87zRM/O80TPzrNEz87zRM/O80TPzrNEz87zRM/Os0TPzrNEz86zRM/O80TPzrNEz87zRM/O80TvzvNE786zRM/Os0TvzvNE787zRM/Os0TvzrNE786zRM/Os0TPzrNEz86zRM/Os0TPzvNEz86zRM/O80TvzvNE786zRM/Os0TPzvNEz86zRM/Os0TPzvNEz87zRM/Os0TvzvNE787zRM/Os0TPzrNE789zRO/Os0TPzvNEz87zRM/AQADAAcABQAKAAAAEAAGAAIADQAIAAQAEgAQAAIAFgAXABkAHQATABgAHAALAA4AIAAUAB4AHwAaAAwAIgAJABsAIwAPABEAJAAVACEAAAB40xJAeNMSQDY93MB40xJANj3cwHjTEkA2PdxAeNMSQHjTEsB40xJANj3cQHjTEsB40xLANj3cQHjTEkB40xLAeNMSQDY93EB40xJAeNMSwDY93EA2PdzAeNMSQHjTEkA2PdxAeNMSwHjTEkA6zRM/Os0TPzrNE786zRM/Os0TvzrNEz86zRM/Os0TPzrNE786zRM/Os0TPzrNE786zRO/Os0TPzrNEz86zRO/Os0TPzrNEz86zRM/Os0TvzrNEz86zRO/Os0TPzrNEz86zRM/Os0TvzrNEz8CAAAAAwAHAAUABAAIAAYAAQAAAHjTEsB40xLANj3cwHjTEkB40xJANj3cwDY93MB40xLAeNMSwHjTEkA2PdxAeNMSwHjTEsA2PdxAeNMSQDY93MB40xJAeNMSQC+XBsHMtXRAzLV0wC+XBsHMtXRAzLV0wMy1dMDMtXRAL5cGwcy1dMDMtXRAL5cGwcy1dMAvlwZBzLV0wMy1dMAvlwZBzLV0wKARRT6kEUW+DVZ2v6ARRT6kEUW+DVZ2vw1Wdr+gEUW+pBFFPqQRRT4NVnY/oBFFPqQRRT4NVnY/oBFFPg1Wdr+gEUW+pBFFPg1Wdr+gEUW+pBFFPjrNE786zRM/Os0TvzrNE786zRM/Os0Tv6ARRT6kEUW+DVZ2vzrNE786zRM/Os0Tv6QRRT4NVnY/oBFFPgYAAgAFAAkAAQAAAAsABAADAAoACAAHAHjTEsB40xLANj3cwHjTEsB40xLANj3cwHjTEkB40xJANj3cwDY93MB40xLAeNMSwHjTEkA2PdxAeNMSwHjTEkA2PdxAeNMSwHjTEsA2PdxAeNMSQHjTEsA2PdxAeNMSQDY93MB40xJAeNMSQC+XBsHMtXRAzLV0wC+XBsHMtXRAzLV0wC+XBsHMtXRAzLV0wC+XBsHMtXRAzLV0wMy1dMDMtXRAL5cGwcy1dMDMtXRAL5cGwcy1dMDMtXRAL5cGwcy1dMAvlwZBzLV0wMy1dMAvlwZBzLV0wKuqKr+qqqq+qqoqv6qqKr+rqqq+q6oqv6qqqj6qqio/q6oqv6uqKr+qqqq+qqoqv6qqqj6qqio/q6oqv6qqqj6qqio/qaoqv6qqKr+qqio/qqqqPqqqKr+qqio/raqqPqqqKr+qqio/raqqPquqKr+qqqq+qqoqv6qqKr+rqqq+q6oqv6qqKr+qqio/qqqqPqqqKr+qqio/raqqPqqqKr+rqqq+q6oqv6qqqj6qqio/q6oqv6qqqj6qqio/qaoqv6qqKr+qqio/qqqqPqqqqj6qqio/qaoqvwkAAAADAAwACAAHAA0AAQAKAA4ABAACABAACwAGABEABQAPAA=="
+        }
+    ]
+}

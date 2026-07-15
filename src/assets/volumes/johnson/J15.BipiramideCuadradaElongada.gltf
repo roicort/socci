@@ -1,0 +1,175 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J15.Bipiramidecuadradaelongada",
+            "translation" : [
+                0,
+                10,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06300951540470123,
+                    0.42869022488594055,
+                    0.2704978883266449,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.12477158010005951,
+                    0.0781872346997261,
+                    0.3324514925479889,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J15.Bipiramidecuadradaelongada",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                5.857863903045654,
+                10,
+                5.857863903045654
+            ],
+            "min" : [
+                -5.857863903045654,
+                -10,
+                -5.857863903045654
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                5.857863903045654,
+                4.142136096954346,
+                5.857863903045654
+            ],
+            "min" : [
+                -5.857863903045654,
+                -4.142136096954346,
+                -5.857863903045654
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 1008
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1056,
+            "uri" : "data:application/octet-stream;base64,AAAAAGGMhECfc7vAAAAAAGGMhECfc7vAAAAAAGGMhMCfc7vAAAAAAGGMhMCfc7vAn3O7wGGMhMAAAACAn3O7wGGMhMAAAACAn3O7QGGMhEAAAACAn3O7QGGMhEAAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAn3O7wGGMhEAAAACAn3O7wGGMhEAAAACAAAAAAGGMhECfc7tAAAAAAGGMhECfc7tAn3O7QGGMhMAAAACAn3O7QGGMhMAAAACAAAAAAGGMhMCfc7tAAAAAAGGMhMCfc7tAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAOs0TvzvNEz87zRO/Os0TPzvNEz87zRO/Os0TvzvNE787zRO/Os0TPzvNE787zRO/Os0TvzvNE787zRO/Os0TvzvNE787zRM/Os0TPzvNEz87zRO/Os0TPzvNEz87zRM/Os0TvzvNEz87zRO/Os0TvzvNEz87zRM/Os0TPzvNEz87zRO/Os0TPzvNEz87zRM/Os0TvzvNEz87zRO/Os0TvzvNEz87zRM/Os0TvzvNEz87zRM/Os0TPzvNEz87zRM/Os0TPzvNE787zRO/Os0TPzvNE787zRM/Os0TvzvNE787zRM/Os0TPzvNE787zRM/Os0TvzvNE787zRO/Os0TvzvNE787zRM/Os0TPzvNE787zRO/Os0TPzvNE787zRM/BgABAAoADAAIAAAADwAHAAsADgAJAA0AFwARABMAFAAEAAIAFQASAAUAFgADABAAAAAAAGGMhECfc7vAAAAAAGGMhECfc7vAAAAAAGGMhMCfc7vAAAAAAGGMhMCfc7vAn3O7wGGMhMAAAACAn3O7wGGMhMAAAACAn3O7QGGMhEAAAACAn3O7QGGMhEAAAACAn3O7wGGMhEAAAACAn3O7wGGMhEAAAACAAAAAAGGMhECfc7tAAAAAAGGMhECfc7tAn3O7QGGMhMAAAACAn3O7QGGMhMAAAACAAAAAAGGMhMCfc7tAAAAAAGGMhMCfc7tA8wQ1vwAAAADzBDW/8wQ1PwAAAADzBDW/8wQ1vwAAAADzBDW/8wQ1PwAAAADzBDW/8wQ1vwAAAADzBDW/8wQ1vwAAAADzBDU/8wQ1PwAAAADzBDW/8wQ1PwAAAADzBDU/8wQ1vwAAAADzBDW/8wQ1vwAAAADzBDU/8wQ1vwAAAADzBDU/8wQ1PwAAAADzBDU/8wQ1PwAAAADzBDW/8wQ1PwAAAADzBDU/8wQ1vwAAAADzBDU/8wQ1PwAAAADzBDU/AAACAAQABgADAAEACAAAAAQACgAJAAUADQAHAAsADAADAAYADgAKAAUADwANAAsA"
+        }
+    ]
+}

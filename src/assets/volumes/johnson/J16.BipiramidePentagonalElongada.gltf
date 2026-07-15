@@ -1,0 +1,175 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J16.BipiramidePentagonalElongada",
+            "translation" : [
+                0,
+                10,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06300951540470123,
+                    0.42869022488594055,
+                    0.2704978883266449,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.12477158010005951,
+                    0.0781872346997261,
+                    0.3324514925479889,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J16.BipiramidePentagonalElongada",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 30,
+            "max" : [
+                8.293116569519043,
+                10,
+                7.887222766876221
+            ],
+            "min" : [
+                -6.709272861480713,
+                -10,
+                -7.887222766876221
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 30,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                8.293116569519043,
+                4.874571800231934,
+                7.887222766876221
+            ],
+            "min" : [
+                -6.709272861480713,
+                -4.874571800231934,
+                -7.887222766876221
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60,
+            "byteOffset" : 720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 780
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 1068
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60,
+            "byteOffset" : 1356
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1416,
+            "uri" : "data:application/octet-stream;base64,ggMkQH78m0AhZPzAggMkQH78m0AhZPzAXbLWwH78m0B+/JvAXbLWwH78m0B+/JvAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAm7AEQX78m0AAAACAm7AEQX78m0AAAACAXbLWwH78m0B+/JtAXbLWwH78m0B+/JtAXbLWwH78m8B+/JtAXbLWwH78m8B+/JtAggMkQH78m8AhZPxAggMkQH78m8AhZPxAggMkQH78m0AhZPxAggMkQH78m0AhZPxAm7AEQX78m8AAAACAm7AEQX78m8AAAACAggMkQH78m8AhZPzAggMkQH78m8AhZPzAXbLWwH78m8B+/JvAXbLWwH78m8B+/JvAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAAAAAAAAAIMEAAACAOxhAvnpuSz86zRO/iXT7PnluSz9isba+a2gbv3puSz8AAACAOxhAvnpuSz86zRO/a2gbv3puSz8AAACAOxhAvnpuSz86zRO/OxhAvnpuSz86zRM/iXT7PnluSz9isba+iXT7PnluSz9isbY+iXT7PnluSz9isba+iXT7PnluSz9isbY+a2gbv3puSz8AAACAOxhAvnpuSz86zRM/a2gbv3puS78AAACAORhAvnpuS786zRM/ORhAvnpuS786zRM/iXT7PnluS79isbY+OxhAvnpuSz86zRM/iXT7PnluSz9isbY+iXT7PnluS79isba+iXT7PnluS79isbY+ORhAvnpuS786zRO/iXT7PnluS79isba+a2gbv3puS78AAACAORhAvnpuS786zRO/a2gbv3puS78AAACAORhAvnpuS786zRO/ORhAvnpuS786zRM/iXT7PnluS79isba+iXT7PnluS79isbY+AAADAAUAAQAHAAkACwAEAAIAEgAKAAgAEQAGAAwAGgAYABUAGwAPAA4AHQAUABAAHAAWABMAGQANABcAggMkQH78m0AhZPzAggMkQH78m0AhZPzAggMkQH78m0AhZPzAXbLWwH78m0B+/JvAXbLWwH78m0B+/JvAm7AEQX78m0AAAACAm7AEQX78m0AAAACAm7AEQX78m0AAAACAXbLWwH78m0B+/JtAXbLWwH78m0B+/JtAXbLWwH78m8B+/JtAXbLWwH78m8B+/JtAggMkQH78m8AhZPxAggMkQH78m8AhZPxAggMkQH78m8AhZPxAggMkQH78m0AhZPxAggMkQH78m0AhZPxAm7AEQX78m8AAAACAm7AEQX78m8AAAACAm7AEQX78m8AAAACAggMkQH78m8AhZPzAggMkQH78m8AhZPzAXbLWwH78m8B+/JvAXbLWwH78m8B+/JvAeTeevgAAAABxeHO/vBtPPwAAAAAYeRa/vhtPPwAAAAAXeRa/AACAvwAAAAAAAACAeTeevgAAAABxeHO/vBtPPwAAAAAYeRY/vhtPPwAAAAAXeRa/vhtPPwAAAAAXeRY/AACAvwAAAAAAAACAeTeevgAAAABxeHM/AACAvwAAAAAAAACAeTeevgAAAABxeHM/eTeevgAAAABxeHM/vBtPPwAAAAAYeRY/vhtPPwAAAAAXeRY/eTeevgAAAABxeHM/vBtPPwAAAAAYeRY/vBtPPwAAAAAYeRa/vhtPPwAAAAAXeRa/vhtPPwAAAAAXeRY/eTeevgAAAABxeHO/vBtPPwAAAAAYeRa/AACAvwAAAAAAAACAeTeevgAAAABxeHO/CQALAAwACAADAAoAEAANAAUADwAJAAwAEgACAAYAEwAHAA4AFAAEAAAAFQABABEAFgAKAAMAFwAEABQA"
+        }
+    ]
+}

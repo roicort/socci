@@ -1,0 +1,110 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J13. BipiramidePentagonal",
+            "translation" : [
+                0,
+                6.199999809265137,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.03071296215057373,
+                    0.34191417694091797,
+                    0.37123775482177734,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J13. BipiramidePentagonal",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 30,
+            "max" : [
+                10,
+                6.180339813232422,
+                9.510564804077148
+            ],
+            "min" : [
+                -8.090169906616211,
+                -6.180339813232422,
+                -9.510564804077148
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 30,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60,
+            "byteOffset" : 720
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 780,
+            "uri" : "data:application/octet-stream;base64,AAAgQQAAAAAAAACAAAAgQQAAAAAAAACAAAAgQQAAAAAAAACAAAAgQQAAAAAAAACAWMVFQAAAAABGKxjBWMVFQAAAAABGKxjBWMVFQAAAAABGKxjBWMVFQAAAAABGKxjBAAAAAFjFxUAAAACAAAAAAFjFxUAAAACAAAAAAFjFxUAAAACAAAAAAFjFxUAAAACAAAAAAFjFxUAAAACAAAAAAFjFxcAAAACAAAAAAFjFxcAAAACAAAAAAFjFxcAAAACAAAAAAFjFxcAAAACAAAAAAFjFxcAAAACAVnEBwQAAAABfF7zAVnEBwQAAAABfF7zAVnEBwQAAAABfF7zAVnEBwQAAAABfF7zAVnEBwQAAAABfF7xAVnEBwQAAAABfF7xAVnEBwQAAAABfF7xAVnEBwQAAAABfF7xAWMVFQAAAAABGKxhBWMVFQAAAAABGKxhBWMVFQAAAAABGKxhBWMVFQAAAAABGKxhBiXT7PnluS79jsba+iXT7PnluS79jsbY+iXT7PnluSz9jsba+iXT7PnluSz9jsbY+OxhAvntuS786zRO/OxhAvntuSz86zRO/iXT7PnluS79jsba+iXT7PnluSz9jsba+amgbv3puSz8AAACAOxhAvnpuSz86zRM/OxhAvntuSz86zRO/iXT7PnluSz9jsba+iXT7PnluSz9jsbY+amgbv3puS78AAACAOxhAvntuS786zRO/OxhAvnpuS786zRM/iXT7PnluS79jsba+iXT7PnluS79jsbY+amgbv3puS78AAACAamgbv3puSz8AAACAOxhAvntuS786zRO/OxhAvntuSz86zRO/amgbv3puS78AAACAamgbv3puSz8AAACAOxhAvnpuS786zRM/OxhAvnpuSz86zRM/OxhAvnpuS786zRM/OxhAvnpuSz86zRM/iXT7PnluS79jsbY+iXT7PnluSz9jsbY+AgAHAAsAAAAQAAYAFQAKAAUAEwAXAAgAEgANABYAFAAEAA4AHQADAAwAGgAYAA8AGwAJABkAHAARAAEA"
+        }
+    ]
+}

@@ -1,0 +1,247 @@
+{
+    "asset" : {
+        "copyright" : "SOCCI",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J6.Rotondapentagonal",
+            "rotation" : [
+                0,
+                0,
+                0.9618607759475708,
+                0.2735395133495331
+            ],
+            "translation" : [
+                0,
+                0.10000000149011612,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0009099171147681773,
+                    0.46778351068496704,
+                    0.47353148460388184,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06847777962684631,
+                    0.4735313057899475,
+                    0.07818752527236938,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05447983369231224,
+                    0.552011251449585,
+                    0.0544804222881794,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J6.Rotondapentagonal",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 54,
+            "max" : [
+                10,
+                5,
+                10
+            ],
+            "min" : [
+                -8.090169906616211,
+                -10,
+                -10
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 54,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 54,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 30,
+            "max" : [
+                10,
+                5,
+                10
+            ],
+            "min" : [
+                -8.090169906616211,
+                -10,
+                -10
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 30,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                8.090169906616211,
+                5,
+                10
+            ],
+            "min" : [
+                -8.090169906616211,
+                -5,
+                -10
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 648,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 648,
+            "byteOffset" : 648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 1296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 1404
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 360,
+            "byteOffset" : 1764
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60,
+            "byteOffset" : 2124
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 2184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 2472
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 2760
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2808,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
+}

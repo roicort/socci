@@ -1,0 +1,266 @@
+---
+interface Props {
+	label: string;
+	models: Array<{
+		arUrl?: string;
+		label: string;
+		url: string;
+	}>;
+}
+
+const { label, models } = Astro.props;
+---
+
+<section class="gltf-viewer" data-gltf-viewer data-models={JSON.stringify(models)} aria-label={`Visor 3D: ${label}`}>
+	<div class="gltf-viewer__toolbar">
+		<strong>{label}</strong>
+		<div class="gltf-viewer__controls">
+			<label class="gltf-viewer__label" for="gltf-model-selector">Modelo</label>
+			<select id="gltf-model-selector" class="gltf-viewer__select" data-gltf-selector>
+				{models.map((model) => <option value={model.url}>{model.label}</option>)}
+			</select>
+			<button class="gltf-viewer__reset" type="button" title="Restablecer vista" aria-label="Restablecer vista">Reset</button>
+		</div>
+	</div>
+	<a class="gltf-viewer__ar-link" data-gltf-ar rel="ar" href={models[0]?.arUrl}>
+		<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" />
+		<span>Ver en realidad aumentada</span>
+	</a>
+	<p class="gltf-viewer__status" aria-live="polite">Cargando modelo 3D...</p>
+</section>
+
+<script>
+	// @ts-nocheck
+	import * as THREE from 'three';
+	import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+	import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+	const loader = new GLTFLoader();
+
+	for (const viewer of document.querySelectorAll<HTMLElement>('[data-gltf-viewer]')) {
+		const status = viewer.querySelector('.gltf-viewer__status');
+		const resetButton = viewer.querySelector('.gltf-viewer__reset');
+		const selector = viewer.querySelector<HTMLSelectElement>('.gltf-viewer__select');
+		const arLink = viewer.querySelector<HTMLAnchorElement>('[data-gltf-ar]');
+		const models = JSON.parse(viewer.dataset.models || '[]');
+		const isAppleMobile = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+		if (!models.length || !status || !resetButton || !selector || !arLink) continue;
+
+		if (isAppleMobile) {
+			viewer.classList.add('gltf-viewer--ar');
+			status.textContent = 'Selecciona un modelo para verlo en realidad aumentada.';
+		}
+
+		const scene = new THREE.Scene();
+		const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 1000);
+		const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+		renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+		renderer.outputColorSpace = THREE.SRGBColorSpace;
+		renderer.domElement.className = 'gltf-viewer__canvas';
+		renderer.domElement.setAttribute('aria-label', `Modelo 3D: ${viewer.getAttribute('aria-label')}`);
+		renderer.domElement.tabIndex = 0;
+		viewer.append(renderer.domElement);
+
+		const controls = new OrbitControls(camera, renderer.domElement);
+		controls.enableDamping = true;
+		controls.minDistance = 0.5;
+		controls.maxDistance = 100;
+
+		scene.add(new THREE.HemisphereLight(0xffffff, 0x3b4755, 3));
+		const keyLight = new THREE.DirectionalLight(0xffffff, 4);
+		keyLight.position.set(5, 8, 6);
+		scene.add(keyLight);
+
+		const modelGroup = new THREE.Group();
+		scene.add(modelGroup);
+
+		let resetView = () => {};
+
+		const render = () => {
+			renderer.render(scene, camera);
+		};
+
+		const resize = () => {
+			const { width, height } = viewer.getBoundingClientRect();
+			if (!width || !height) return;
+			camera.aspect = width / height;
+			camera.updateProjectionMatrix();
+			renderer.setSize(width, height, false);
+			render();
+		};
+
+		new ResizeObserver(resize).observe(viewer);
+		controls.addEventListener('change', render);
+		resetButton.addEventListener('click', () => {
+			resetView();
+			render();
+		});
+
+		const disposeModel = () => {
+			modelGroup.traverse((object) => {
+				if (!object.isMesh) return;
+				object.geometry.dispose();
+				const materials = Array.isArray(object.material) ? object.material : [object.material];
+				for (const material of materials) material.dispose();
+			});
+			modelGroup.clear();
+		};
+
+		const loadModel = (modelUrl) => {
+			if (isAppleMobile) return;
+			status.textContent = 'Cargando modelo 3D...';
+			disposeModel();
+			loader.load(
+				modelUrl,
+			(gltf) => {
+				const model = gltf.scene;
+				const bounds = new THREE.Box3().setFromObject(model);
+				const size = bounds.getSize(new THREE.Vector3());
+				const center = bounds.getCenter(new THREE.Vector3());
+				const largestDimension = Math.max(size.x, size.y, size.z);
+				const distance = largestDimension / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))) * 1.5;
+
+				model.position.sub(center);
+				modelGroup.add(model);
+				controls.minDistance = Math.max(distance * 0.35, 0.1);
+				controls.maxDistance = distance * 4;
+				resetView = () => {
+					camera.position.set(distance, distance * 0.65, distance);
+					controls.target.set(0, 0, 0);
+					controls.update();
+				};
+				resetView();
+				status.textContent = 'Arrastra para rotar. Usa la rueda o pellizca para acercar.';
+				resize();
+				},
+				undefined,
+				() => {
+					status.textContent = 'No fue posible cargar el modelo 3D.';
+				},
+			);
+		};
+
+		selector.addEventListener('change', () => {
+			const selectedModel = models.find((model) => model.url === selector.value);
+			if (selectedModel?.arUrl) arLink.href = selectedModel.arUrl;
+			loadModel(selector.value);
+		});
+		loadModel(selector.value);
+	}
+</script>
+
+<style>
+	.gltf-viewer {
+		position: relative;
+		min-height: 22rem;
+		margin: 1.5rem 0;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.5rem;
+		background: linear-gradient(145deg, var(--sl-color-black) 0%, var(--sl-color-gray-6) 100%);
+		overflow: hidden;
+	}
+
+	.gltf-viewer__toolbar {
+		position: absolute;
+		top: 0.75rem;
+		left: 0.75rem;
+		right: 0.75rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		z-index: 1;
+		color: var(--sl-color-white);
+	}
+
+	.gltf-viewer__controls {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.gltf-viewer__label {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+	}
+
+	.gltf-viewer__select {
+		max-width: 12rem;
+		border: 1px solid var(--sl-color-gray-4);
+		border-radius: 0.25rem;
+		padding: 0.35rem;
+		background: var(--sl-color-black);
+		color: var(--sl-color-white);
+	}
+
+	.gltf-viewer__reset {
+		border: 1px solid var(--sl-color-gray-4);
+		border-radius: 0.25rem;
+		padding: 0.35rem 0.6rem;
+		background: var(--sl-color-black);
+		color: var(--sl-color-white);
+		cursor: pointer;
+	}
+
+	.gltf-viewer__ar-link {
+		display: none;
+		position: absolute;
+		inset: 50% auto auto 50%;
+		transform: translate(-50%, -50%);
+		align-items: center;
+		gap: 0.5rem;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 0.25rem;
+		padding: 0.7rem 0.9rem;
+		background: var(--sl-color-accent);
+		color: var(--sl-color-black);
+		font-weight: 600;
+		text-decoration: none;
+		white-space: nowrap;
+		z-index: 1;
+	}
+
+	.gltf-viewer__ar-link img {
+		width: 1px;
+		height: 1px;
+	}
+
+	.gltf-viewer--ar .gltf-viewer__ar-link {
+		display: flex;
+	}
+
+	.gltf-viewer--ar .gltf-viewer__reset,
+	.gltf-viewer--ar .gltf-viewer__status {
+		display: none;
+	}
+
+	.gltf-viewer--ar {
+		min-height: 16rem;
+	}
+
+	.gltf-viewer__status {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		padding: 0.75rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+		z-index: 1;
+	}
+
+	:global(.gltf-viewer__canvas) {
+		display: block;
+		width: 100%;
+		height: 22rem;
+		touch-action: none;
+	}
+
+	.gltf-viewer--ar :global(.gltf-viewer__canvas) {
+		display: none;
+	}
+</style>

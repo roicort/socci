@@ -1,0 +1,117 @@
+{
+    "asset" : {
+        "copyright" : "SOCCI",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J2.PiramidePentagonal",
+            "rotation" : [
+                0.4870501756668091,
+                0,
+                0,
+                0.8733739852905273
+            ],
+            "translation" : [
+                0,
+                -4.43766975402832,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06300951540470123,
+                    0.42869022488594055,
+                    0.2704978883266449,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J2.PiramidePentagonal",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                8.506507873535156,
+                8.506507873535156,
+                0
+            ],
+            "min" : [
+                -8.506507873535156,
+                -5.25731086730957,
+                -8.506507873535156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 576
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 624,
+            "uri" : "data:application/octet-stream;base64,5DuoQKgaCEEAAACA5DuoQKgaCEEAAACA5DuoQKgaCEEAAACA5DuoQKgaCEEAAACA5DuowKgaCEEAAACA5DuowKgaCEEAAACA5DuowKgaCEEAAACA5DuowKgaCEEAAACAAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qMCoGgjBAAAAAOQ7qECoGgjBAAAAAOQ7qECoGgjBAAAAAOQ7qECoGgjBAAAAAOQ7qECoGgjBAAAAAOQ7qECoGgjBqBoIQQAAAADkO6jAqBoIQQAAAADkO6jAqBoIQQAAAADkO6jAqBoIwQAAAADkO6jAqBoIwQAAAADkO6jAqBoIwQAAAADkO6jANNIbs1CWBr9BxFk/AAAAAFGWBr9BxFk/AAAAAOslbz9jsba+Os0TPzrNEz86zRO/Os0TvzrNEz86zRO/AAAAAFGWBr9BxFk/AAAAAOslbz9jsba+NNIbM1CWBr9BxFk/Y7G2vgAAAADrJW+/NNIbs1CWBr9BxFk/AAAAAFGWBr9BxFk/NNIbM1CWBr9BxFk/Y7G2PgAAAADrJW+/Os0TvzrNEz86zRO/Y7G2vgAAAADrJW+/AAAAAOslbz9jsba+Y7G2PgAAAADrJW+/Os0TPzrNEz86zRO/NNIbs1CWBr9BxFk/Y7G2PgAAAADrJW+/Os0TPzrNEz86zRO/Os0TvzrNEz86zRO/Y7G2vgAAAADrJW+/NNIbM1CWBr9BxFk/AQAFAAoABgACAA8AFAARAAMAEgAAAAkAEwAMABAAFwALAAcAFQAEAA0AFgAOAAgA"
+        }
+    ]
+}

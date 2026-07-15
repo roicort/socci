@@ -1,0 +1,106 @@
+{
+    "asset" : {
+        "copyright" : "SOCCI",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J1.Piramide Cuadrada"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06300951540470123,
+                    0.42869022488594055,
+                    0.2704978883266449,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J1.Piramide Cuadrada",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                10,
+                10,
+                10
+            ],
+            "min" : [
+                -10,
+                0,
+                -10
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 384
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 420,
+            "uri" : "data:application/octet-stream;base64,AAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAgQQAAAAAAAACAAAAgQQAAAAAAAACAAAAgQQAAAAAAAACAAAAAAAAAAAAAACDBAAAAAAAAAAAAACDBAAAAAAAAAAAAACDBAAAgwQAAAAAAAACAAAAgwQAAAAAAAACAAAAgwQAAAAAAAACAAAAAAAAAAAAAACBBAAAAAAAAAAAAACBBAAAAAAAAAAAAACBBOs0TvzrNEz86zRO/Os0TvzrNEz86zRM/Os0TPzrNEz86zRO/Os0TPzrNEz86zRM/AAAAAAAAgL8AAACAOs0TPzrNEz86zRO/Os0TPzrNEz86zRM/Os0TvzrNEz86zRO/AAAAAAAAgL8AAACAOs0TPzrNEz86zRO/Os0TvzrNEz86zRO/Os0TvzrNEz86zRM/AAAAAAAAgL8AAACAOs0TvzrNEz86zRM/AAAAAAAAgL8AAACAOs0TPzrNEz86zRM/AgAFAAkABwAKAAAADAAIAAQADQABAAsADgAMAAQADwAGAAMA"
+        }
+    ]
+}

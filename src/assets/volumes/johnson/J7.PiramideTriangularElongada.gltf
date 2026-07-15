@@ -1,0 +1,176 @@
+{
+    "asset" : {
+        "copyright" : "SOCCI",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "J7.Piramidetriangularelongada",
+            "translation" : [
+                0,
+                3.8499999046325684,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.10946158319711685,
+                    0.06480315327644348,
+                    0.2015562504529953,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06300951540470123,
+                    0.42869022488594055,
+                    0.2704978883266449,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "J7.Piramidetriangularelongada",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                4.385505199432373,
+                3.797959089279175,
+                3.797959089279175
+            ],
+            "min" : [
+                -2.1927530765533447,
+                -3.797959089279175,
+                -3.797959089279175
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 18,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                4.385505199432373,
+                10,
+                3.797959089279175
+            ],
+            "min" : [
+                -2.1927530765533447,
+                -3.797959089279175,
+                -3.797959089279175
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 324
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 468
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 612
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 636,
+            "uri" : "data:application/octet-stream;base64,EVYMwMMRc0DDEXNAEVYMwMMRc0DDEXNAEVYMwMMRc0DDEXPAEVYMwMMRc0DDEXPAEVYMwMMRc8DDEXPAEVYMwMMRc8DDEXPAD1aMQMMRc8AAAACAD1aMQMMRc8AAAACAD1aMQMMRc0AAAACAD1aMQMMRc0AAAACAEVYMwMMRc8DDEXNAEVYMwMMRc8DDEXNAAACAvwAAAAAAAACAAAAAPwAAAADYs10/AACAvwAAAAAAAACAAAAAPwAAAADYs12/AACAvwAAAAAAAACAAAAAPwAAAADYs12/AAAAPwAAAADYs12/AAAAPwAAAADYs10/AAAAPwAAAADYs12/AAAAPwAAAADYs10/AACAvwAAAAAAAACAAAAAPwAAAADYs10/AAACAAQABgAFAAMACQABAAcACAAGAAMACwAHAAEACgAAAAQAEVYMwMMRc0DDEXNAEVYMwMMRc0DDEXNAEVYMwMMRc0DDEXPAEVYMwMMRc0DDEXPAEVYMwMMRc8DDEXPAD1aMQMMRc8AAAACAD1aMQMMRc0AAAACAD1aMQMMRc0AAAACAEVYMwMMRc8DDEXNAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACAAAAAAAAAIEEAAACA7ltxv62qqj4AAACA7lvxPqyqqj7rBVE/7ltxv62qqj4AAACA7lvxPqyqqj7rBVG/AAAAAAAAgL8AAACAAAAAAAAAgL8AAACA7lvxPqyqqj7rBVG/7lvxPqyqqj7rBVE/AAAAAAAAgL8AAACA7ltxv62qqj4AAACA7lvxPqyqqj7rBVG/7lvxPqyqqj7rBVE/CAAEAAUACQACAAAACwABAAcACgAGAAMA"
+        }
+    ]
+}
