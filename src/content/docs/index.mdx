@@ -1,0 +1,33 @@
+---
+title: Tesis digital sobre poliedros convexos
+description: Estructura principal de contenidos para el desarrollo de la tesis.
+template: splash
+hero:
+  tagline: Plataforma base para redactar, iterar y publicar la tesis.
+  actions:
+    - text: Ir a Introducción
+      link: /tesis/00-preliminares/introduccion/
+      icon: right-arrow
+    - text: Ver Primera Parte
+      link: /tesis/01-primera-parte/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Estructura inicial cargada
+
+<CardGrid stagger>
+	<Card title="Preliminares" icon="document">
+		Agradecimientos, Resumen e Introducción.
+	</Card>
+	<Card title="Primera y Segunda Parte" icon="open-book">
+		Bases teóricas, morfología, análisis e infografías.
+	</Card>
+	<Card title="Tercera y Cuarta Parte" icon="set-square">
+		Teselaciones, modelación espacial y aplicaciones arquitectónicas.
+	</Card>
+	<Card title="Cierre" icon="list">
+		Anexo, conclusiones, referencias e índice de figuras.
+	</Card>
+</CardGrid>
